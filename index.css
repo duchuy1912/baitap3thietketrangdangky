@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+}
+select{
+    border: none;
+    background-color: #e0d5d53b;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+input {
+    border: none;
+    background-color: #e0d5d53b;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+body {
+    /* background-image: linear-gradient(90deg,red,black); */
+    background-color: beige;
+}
+
+.maunentrang {
+    background-color: white;
+    display: flex;
+    font-size: 13px;
+    padding: 20px 0;
+    padding-left: 10px;
+}
+
+.text30 {
+    width: 20%;
+}
+
+.dangky {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 1px;
+}
+
+.dangky__xettuyen {
+    color: rgb(190, 0, 0);
+    padding: 10px;
+    padding-left: 5px;
+    background-color: white;
+}
+
+.dangky__thongtinhoso {
+    background-color: rgb(177, 3, 3);
+
+}
+
+.dangky__thongtinhoso h5 {
+    padding: 5px;
+    color: white;
+}
+
+.dangky__hoten {
+
+}
+
+.hoten__text {}
+
+.hoten__inputtextho {
+    width: 80px;
+    margin-right: 5px;
+}
+
+.hoten__inputtextlot {
+    width: 160px;
+    margin-right: 5px;
+}
+
+.hoten__inputtextten {
+    width: 80px;
+    margin-right: 5px;
+}
+
+.hoten__inputradio {
+    height: 30px;
+    display: flex;
+    padding: 0 16px;
+
+}
+.hoten__inputradio label{
+    line-height: 30px;
+    padding: 0 6px;
+}
+
+.dangky__ngaysinh {
+    display: flex;
+}
+
+.ngaysinh__textngaysinh {}
+
+.ngaysinh__inputtext1 {}
+
+.ngaysinh__textsdt {
+    line-height: 26px;
+    margin: 0 20px;
+}
+
+.ngaysinh__inputtext2 {
+    width: 39%;
+}
+
+.dangky__email {}
+
+.email__text {}
+
+.email__input {
+    width: 70%;
+}
+
+.dangky__facebook {}
+
+.facebook__text {}
+
+.facebook__input {
+    width: 70%;
+}
+
+.dangky__diachi {}
+
+.diachi__text {}
+
+.diachi__nhap {}
+
+.nhap__input {
+    width: 99%;
+}
+
+.nhap__sud {}
+
+.dangky__tinhthanh {}
+
+.tinhthanh__texttt {}
+.tinhthanh__conten i{
+    padding: 10px;
+}
+
+.tinhthanh__contenone {
+    display: flex;
+}
+
+.tinhthanh__inputtt {
+
+}
+
+.tinhthanh__textthpt {
+    line-height: 25px;
+    padding: 0 21px;
+}
+
+.tinhthanh__inputthpt {
+
+}
+
+.dangky__nganhdk select{
+    width: 70%;
+}
+
+.dangky__taptin {}
+
+.taptin__text {}
+
+.taptin__conten {}
+
+.taptin__inputfile {}
+
+.inputfile__input {
+    height: 22px;
+    background-color: white;
+    border: none;
+}
+
+.inputfile__sud {}
+
+.taptin__themfile {
+    color: red;
+}
+
+.taptin__sud {}
+
+.dangky__mabaove {}
+
+.mabaove__text {}
+
+.mabaove__conten {}
+
+.conten__inputtext {}
+
+.inputtext__input {}
+
+.inputtext__img {
+    width: 50px;
+}
+
+.conten__sud1 {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.conten__sud2 {
+    border-bottom: 1px solid #ccc;
+}
+
+.dangdy__inputdangkyxettuyen {
+    padding: 50px;
+    justify-content: center;
+}
+
+.dangdy__inputdangkyxettuyen button {
+
+    background-color: rgb(229, 6, 6);
+    padding: 10px;
+    color: rgb(238, 238, 238);
+}
+
+.dangdy__inputdangkyxettuyen button:hover {
+    background-color: rgb(179, 17, 17);
+}

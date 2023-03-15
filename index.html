@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="dangky">
+        <h4 class="dangky__xettuyen">ĐĂNG KÝ XÉT TUYỂN</h4>
+        <!--  -->
+        <div class="dangky__thongtinhoso">
+            <h5>THÔNG TIN HỒ SƠ</h5>
+        </div>
+        <!--  -->
+        <div class="dangky__hoten maunentrang">
+            <p class="hoten__text text30">Họ và tên(<span style="color: red;">*</span>)</p>
+            <input placeholder="Họ" type="text" class="hoten__inputtextho">            </input>
+            <input placeholder="Tên lót" type="text" class="hoten__inputtextlot"></input>
+            <input placeholder="Tên" type="text" class="hoten__inputtextten"></input>
+            <div class="hoten__inputradio">
+                <input type="radio" name="gioitinh" id="">
+                <label for="">Nam</label>
+                <input type="radio" name="gioitinh" id="">
+                <label for="">Nữ</label>
+            </div>
+        </div>
+        <!--  -->
+        <div class="dangky__ngaysinh maunentrang">
+            <p class="ngaysinh__textngaysinh text30">Ngày sinh(<span style="color: red;">*</span>)</p>
+            <input type="date" class="ngaysinh__inputtext1"></input>
+            <p class="ngaysinh__textsdt">Số điện thoại(<span style="color: red;">*</span>)</p>
+            <input type="text" class="ngaysinh__inputtext2"></input>
+        </div>
+        <!--  -->
+        <div class="dangky__email maunentrang">
+            <p class="email__text text30">Email(<span style="color: red;">*</span>)</p>
+            <input type="email" class="email__input"></input>
+        </div>
+        <!--  -->
+        <div class="dangky__facebook maunentrang">
+            <p class="facebook__text text30">Facebook</p>
+            <input type="text" class="facebook__input"></input>
+        </div>
+        <!--  -->
+        <div class=".dangky__diachi maunentrang">
+            <p class="diachi__text text30">Địa chỉ liên lạc(<span style="color: red;">*</span>)</p>
+            <div class="diachi__nhap">
+                <input type="text" placeholder="Địa chỉ nhận giấy báo trúng tuyển" class="nhap__input"></input>
+                <i class="nhap__sud">(Nhập số nhà,tên đường,thôn/tổ,phường/xã,quận/huyện,tỉnh/thành)</i>
+            </div>
+        </div>
+        <!--  -->
+        <div class="dangky__tinhthanh maunentrang">
+            <p class="tinhthanh__texttt text30">Tỉnh thành(<span style="color: red;">*</span>)</p>
+            <div class="tinhthanh__conten">
+                <div class="tinhthanh__contenone">
+                    <select class="tinhthanh__inputtt" name="" id="">
+                        <option value="">Chọn tỉnh thành</option>
+                        <option value="">Thành phố Hồ Chí Minh</option>
+                        <option value="">Thành phố Hà Nội</option>
+                        <option value="">Thành phố Đà Nẵng</option>
+                        <option value="">Tỉnh Gia Lai</option>
+                        <option value="">Tỉnh Quảng Nam</option>
+                        <option value="">Tỉnh Cao Bằng</option>
+                    </select>
+                    <p class="tinhthanh__textthpt">Trường THPT(<span style="color: red;">*</span>)</p>
+                    <select class="tinhthanh__inputthpt" name="" id="">
+                        <option value="">Chọn trường trung học phổ thông</option>
+                        <option value="">Trường THPT chuyên Lê Quý Đôn</option>
+                        <option value="">Trường THPT Phan Châu Trinh</option>
+                        <option value="">Trường THPT Trần Phú</option>
+                        <option value="">Trường THPT Nguyễn Hiền</option>
+                        <option value="">Trường THCS-THPT Nguyễn Khuyến</option>
+                    </select>
+                </div>
+                <i>(Ghi chú :Nếu là thí sinh tự do thì bạn chọn trường THPT đã tốt nghiệp trước đó.)</i>
+            </div>
+        </div>
+        <!--  -->
+        <div class="dangky__nganhdk maunentrang">
+            <p class="nganhdk__text text30">Ngành đăng ký(<span style="color: red;">*</span>)</p>
+            <select name="" id="">
+                <option value="">Chọn ngành</option>
+                <option value="">Công nghệ thông tin</option>
+                <option value="">Kiến trúc</option>
+                <option value="">Quản trị kinh doanh</option>
+                <option value="">Marketing</option>
+            </select>
+        </div>
+        <!--  -->
+        <div class="dangky__taptin maunentrang">
+            <p class="taptin__text text30">Tập tin đính kèm(<span style="color: red;">*</span>)</p>
+            <div class="taptin__conten">
+                <div class="taptin__inputfile">
+                    <input type="file" class="inputfile__input"></input>
+                </div>
+                <p class="taptin__themfile">Thêm file</p>
+                <i class="taptin__sud">(File có phần mở rộng là:GIF,JPG,PNG,RAR,ZIP)</i>
+            </div>
+        </div>
+        <!--  -->
+        <div class="dangky__mabaove maunentrang">
+            <P class="mabaove__text text30">Mã bảo vệ(<span style="color: red;">*</span>)</P>
+            <div class="mabaove__conten">
+                <div class="conten__inputtext">
+                    <input type="text" class="inputtext__input"></input>
+                    <img src="./img/Ảnh chụp màn hình 2023-03-12 031140.png" class="inputtext__img"></img>
+                </div>
+                <i class="conten__sud1">Nhập đúng các kí tự ở hình bên phải vào ô trống bên trái</i>
+                <div class="conten__sud2">(<span style="color: red;">*</span>): là những trường bắc buộc nhập</div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="dangdy__inputdangkyxettuyen maunentrang">
+            <button>ĐĂNG KÝ XÉT TUYỂN</button>
+        </div>
+    </div>
+</body>
+</html>
